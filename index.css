@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@media only screen and (max-width: 768px) {}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  background-color: #ffffff;
+}
+img {
+  max-width: 30%;
+  height: auto;
+  display:block;
+}
+a {
+  text-decoration: none;
+  color: red;;
+}
+body {
+  font-family: "IBMPlexSans";
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+
+  background:
+    radial-gradient(
+      ellipse 80% 80% at 50% 0%,
+      rgba(179, 22, 22, 0.836),
+      transparent 80%
+    ),
+    #252323;
+  
+}
+.navbar {
+ position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: central;
+    width: 100%;
+    min-height: 70px;
+    padding: 0 24px;
+    background-color: #000;
+    border-bottom: 1px solid #f10c0c;
+.logo {
+  white-space: nowrap;
+  height: auto;
+  color: #f10c0c;
+  font-size: 1.5rem;
+  font-family: "IBM";
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+}
+}
+
+.menu ul {
+    font-size: larger;
+}
+.Communication_box {
+    width: 600px;
+    background-color:black;
+    height: fit-content;
+    margin-top:7px ;
+    position:relative;
+    left: 3px;
+}
+.user{
+  color: #f10c0c;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+}
+.Command {
+  color: blue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+}
+.output {
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+}
+.sub {
+   color: #f10c0c;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+}
+.roadmap {
+   margin-left: 530px;
+   font-size: 40px;
+   margin-top: 30px;
+   font-family: Poppins;
+   font-style: italic;
+   display:block
+}
+.roadmap {
+   animation: fadeup 5s ease-in-out;
+}
+
+@keyframes fadeup {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.box1 {
+  width: 300px;
+  height: 450px;
+  padding: 30px;
+  margin: 10px;
+  border: 2px solid #333;
+  border-radius: 10px;
+ background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+.box2 {
+  width: 300px;
+  height: 450px;
+  padding: 30px;
+  margin: 10px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+.box3 {
+  width: 300px;
+  height: 450px;
+  padding: 30px;
+  margin: 10px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+.box4 {
+  width: 300px;
+  height: 450px;
+  padding: 30px;
+  margin: 10px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+.box5 {
+  width: 300px;
+  height: 450px;
+  padding: 30px;
+  margin: 10px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+#navbar-container {
+    min-height: 70px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 70px;
+    padding: 0 32px;
+    background: #000;
+    border-bottom: 1px solid #f10c0c;
+    animation: navbarSlideDown 0.8s ease-out both;
+}
+
+.navbar .logo {
+    color: #f10c0c;
+    font-size: 1.4rem;
+    font-weight: 700;
+    white-space: nowrap;
+    animation: logoFadeIn 1s ease-out 0.2s both;
+}
+
+.menu ul {
+    display: flex;
+    gap: 36px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin:0;
+}
+
+.menu li {
+    animation: menuFadeIn 0.6s ease-out both;
+}
+
+.menu li:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.menu li:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.menu li:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.menu li:nth-child(4) {
+    animation-delay: 0.5s;
+}
+
+.menu a {
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.menu a::after {
+    position: absolute;
+    right: 10px;
+    bottom: -8px;
+    left: 0;
+    height: 2px;
+    background: #f10c0c;
+    content: "";
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+.menu a:hover {
+    color: #f10c0c;
+}
+
+.menu a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+@keyframes navbarSlideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes menuFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.dear {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-style: italic ;
+    font-weight: bold;
+
+  overflow: hidden;
+  white-space: nowrap;
+  width: 38ch;
+  animation:
+    typing 3s steps(30) forwards,
+    blink 0.7s infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 38ch;
+  }
+}
+
+@keyframes blink {
+  10% {
+    border-color: transparent;
+  }
+}
+   .profile-image {
+    display: block;
+    width: min(700px, 90vw);
+    max-width: none;
+    height: auto;
+    margin: 40px auto;
+    object-fit: contain;
+    margin: 0px 30px 40px auto ;
+    top: -70px;
+    position: relative;
+
+}
+.Mail {
+position: fixed;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    bottom: 10px;
+    left: 20px;
+    font-style: italic ;
+    font-weight: bold;
+    font-size: 20px;
+}
+  
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+    
+
