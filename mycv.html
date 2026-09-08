@@ -16,6 +16,46 @@
     <p class="dear">Dear Hiring Manager,<br>
         Thank you for taking the time to review my CV.<br>
         I wish you have a great day!</p>
+        <div class="ajno">
+        <div class="cv-buttons">
+
+        <button
+            class="cv-button active"
+            onclick="showCV('cv-vietnam', this)">
+            🇻🇳 CV Tiếng Việt
+        </button>
+
+        <button
+            class="cv-button"
+            onclick="showCV('cv-english', this)">
+            🇬🇧 CV Tiếng Anh
+        </button>
+
+    </div>
+
+
+    <!-- =========================
+         CV
+    ========================= -->
+
+    <div class="cv-container">
+
+        <!-- CV TIẾNG VIỆT -->
+        <div id="cv-vietnam" class="cv active">
+            <img
+                src=".vscode/cvtiengviet.png" alt="CV Tiếng Việt">
+        </div>
+
+
+        <!-- CV TIẾNG ANH -->
+        <div id="cv-english" class="cv">
+            <img
+                src=".vscode/cv.jpg" alt="CV Tiếng Anh">
+        </div>
+
+    </div>
+</div>
+
             <img src=".vscode/cv.jpg" alt="mycv" class="profile-image">
           <div class="Mail"> 
             <h4>Contact me at :</h4>
@@ -27,5 +67,30 @@
           </div>
 
 <script src="navbar.js"></script>
+ <script>
+
+        function showCV(cvId, button) {
+
+            // Ẩn tất cả CV
+            document.querySelectorAll(".cv").forEach(function(cv) {
+                cv.classList.remove("active");
+            });
+
+
+            // Bỏ trạng thái active của tất cả nút
+            document.querySelectorAll(".cv-button").forEach(function(btn) {
+                btn.classList.remove("active");
+            });
+
+
+            // Hiện CV được chọn
+            document.getElementById(cvId).classList.add("active");
+
+
+            // Đổi nút thành active
+            button.classList.add("active");
+        }
+
+    </script>
 </body>
 </html>
